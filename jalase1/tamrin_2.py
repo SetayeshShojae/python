@@ -5,11 +5,10 @@ while True :
     try:
         hads=int(input("adad khod ra vared konid"))
         if number >= hads:
-            print("adad bozorg tare")
+                print("adad bozorg tare")
         elif number <=hads:
-            print("adad kochek tare")
-        else:
-            print("dorost hads zady:)")
-        break
+                print("adad kochek tare")
+        else
+                print("dorost hads zady")
     except ValueError :
-        print("adad sahih vared kon")
+                print("adad sahih vared kon")
