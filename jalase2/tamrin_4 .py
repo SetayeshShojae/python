@@ -1,6 +1,6 @@
 kharid_ha = {}
 num_kharid = int(input("tedad kharid hara vared kon:"))
-for _ in range("nam_kharid"): 
+for _ in range (num_kharid):
     kala = input("jens kharid ra vared kon:")
     andazeh = float(input("mablagehe kharid ra vared kon:"))
     if kala in kharid_ha:
