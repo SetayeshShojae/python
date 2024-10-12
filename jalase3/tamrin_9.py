@@ -1,4 +1,4 @@
-list1 = list(map(int, input("List aval ra vared konid (ba fasele joda konid): ").split())) 
-list2 = list(map(int, input("List dovom ra vared konid (ba fasele joda konid): ").split())) 
-result = list(map(lambda x, y: x + y, list1, list2)) 
-print("List natije: ", result)
+list1 = list(map(int, input("List aval ra vared kon (ba faseleh joda kon): ").split())) 
+list2 = list(map(int, input("List dovom ra vared kon (ba faseleh joda kon): ").split())) 
+result = list(map(lambda l,m: l + m, list1, list2)) 
+print("natijeh list : ", result)
