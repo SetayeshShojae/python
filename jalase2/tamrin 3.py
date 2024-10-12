@@ -2,9 +2,9 @@ def masahet (tol ,arz):
     return tol*arz 
 def mohit (tol ,arz): 
     return 2*(tol+arz) 
-tol=int(input('vared konid_tol :')) 
-arz=int(input('vared konid_arz :')) 
-s = masahet(tol,arz) 
-p = mohit(tol,arz) 
-print(f'masahat={s}') 
-print(f'mohit={p}')
+tol=int(input("tol vared kon :")) 
+arz=int(input("arz ra vared kon :")) 
+m = masahet(tol,arz) 
+l = mohit(tol,arz) 
+print(f'masahat={m}') 
+print(f'mohit={l}')
