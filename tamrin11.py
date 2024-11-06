@@ -45,5 +45,5 @@ def main():
         with open(report_path, 'r', encoding='utf-8') as report_file:
             print(report_file.read())
 
-if name == "main":
+if __name__ == "main":
     main()
